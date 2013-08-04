@@ -6,7 +6,7 @@
 
 /* Global Reset */
 
-/* * {
+/*  * {
   border: solid 1px black;
 
 } 
@@ -22,7 +22,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px sans-serif, Helvetica, Arial;
   font-size: small;
   text-align: center;
 }
@@ -33,9 +33,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #8085C1; text-decoration: none; }
+a:hover   { color: #636B96; text-decoration: underline }
+// a:visited { color: gray; }
 
 /*****************************************************************************/
 /*
@@ -55,12 +55,13 @@ ul.posts li {
 // date
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
+  font-family: "Courier New", monospace, Monaco;
   font-size: 80%;
 }
 
 li span {
   float: right;
+  color: gray;
 }
 
 /*****************************************************************************/
@@ -74,7 +75,7 @@ li span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 32em;
+  width: 28em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -92,16 +93,19 @@ li span {
 .site .header h1.title a {
   font-size: 3em;
   margin-left: -1em;
-  color: #a00;
+  color: white;
+  background-color: #FF96A7;
+  padding: 0.06em 0.06em 0.05em 0.06em;
 }
 
 .site .header h1.title a:hover {
-  color: #000;
+  color: gray;
+  background-color: white;
 }
 
 .site .header a.extra {
   color: #aaa;
-  margin-left: 1em;
+  margin-left: 1.3em;
 }
 
 .site .header a.extra:hover {
@@ -114,7 +118,7 @@ li span {
 
 .site .footer {
   font-size: 80%;
-  color: #666;
+  color: #C8C8C8;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
@@ -126,7 +130,17 @@ li span {
 }
 
 .site .footer .contact a {
-  color: #8085C1;
+  color: #9FA6F0;
+  padding: 0 8px 0 0;
+  margin: 0 0 0 auto;
+}
+
+.site .footer .contact a:hover {
+  color: #636B96;
+}
+
+.site .footer p {
+  display: inline-flex;
 }
 
 .site .footer .rss {
