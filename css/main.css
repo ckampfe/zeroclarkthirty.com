@@ -5,6 +5,14 @@
 /*****************************************************************************/
 
 /* Global Reset */
+
+/* * {
+  border: solid 1px black;
+
+} 
+*/
+
+
 * {
   margin: 0;
   padding: 0;
@@ -39,14 +47,20 @@ ul.posts {
   margin-bottom: 2em;
 }
 
+//post titles
 ul.posts li {
   line-height: 1.75em;
 }
 
+// date
 ul.posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
+}
+
+li span {
+  float: right;
 }
 
 /*****************************************************************************/
@@ -55,10 +69,12 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+
+
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 32em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -74,6 +90,8 @@ ul.posts span {
 }
 
 .site .header h1.title a {
+  font-size: 3em;
+  margin-left: -1em;
   color: #a00;
 }
 
