@@ -75,7 +75,7 @@ li span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 28em;
+  width: 38em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -125,13 +125,13 @@ li span {
 }
 
 .site .footer .contact {
-  float: left;
-  margin-right: 3em;
+  float: right;
+  margin-right: 2em;
 }
 
 .site .footer .contact a {
   color: #9FA6F0;
-  padding: 0 8px 0 0;
+  padding: 0 0 0 8px;
   margin: 0 0 0 auto;
 }
 
