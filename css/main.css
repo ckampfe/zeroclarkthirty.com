@@ -117,7 +117,7 @@ li span {
 }
 
 .site .footer {
-  font-size: 80%;
+  font-size: 85%;
   color: #C8C8C8;
   border-top: 4px solid #eee;
   margin-top: 2em;
@@ -165,6 +165,17 @@ li span {
   background-color: #eef;
   padding: 0 .4em;
 }
+
+.post a {
+  color: white;
+  background-color: #FF96A7;
+  text-decoration: none;
+  padding: 1px;
+}
+
+.post a:hover {
+  color: gray;
+  background-color: white;
 
 .post ul, .post ol {
   margin-left: 1.35em;
