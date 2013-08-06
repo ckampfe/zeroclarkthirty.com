@@ -6,3 +6,5 @@ _drafts
 *.swo
 
 .DS_Store
+
+*.!sync
