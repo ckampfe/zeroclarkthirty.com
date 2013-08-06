@@ -15,7 +15,7 @@ some, and maybe I’ll post selected tracks for others. Who knows.
 (The criteria for selection is in the nebulous/emotional range, nothing
 more. I’m not Pitchfork.)
 
-Here they are: https://docs.google.com/spreadsheet/pub?key=0ArDppihwaWa6dFdaeV9pOXNTeERqbWVFTFp5bWFuNmc&output=html
+[Here they are](https://docs.google.com/spreadsheet/pub?key=0ArDppihwaWa6dFdaeV9pOXNTeERqbWVFTFp5bWFuNmc&output=html)
 
 I’ll update this post to indicate the order of review.
 
