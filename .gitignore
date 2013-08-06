@@ -4,3 +4,5 @@ _drafts
 *.swp
 
 *.swo
+
+.DS_Store
