@@ -48,5 +48,5 @@ Sounds like: rugged individualism.
 Start at 1:00 
 
 View the original
-[list](http://clarkkampfe.tumblr.com/post/33904700007/album-love) in a
+[list](https://docs.google.com/spreadsheet/pub?key=0ArDppihwaWa6dFdaeV9pOXNTeERqbWVFTFp5bWFuNmc&output=htm    l) in a
 new window.

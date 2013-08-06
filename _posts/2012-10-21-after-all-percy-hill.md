@@ -39,7 +39,7 @@ Sounds like: Love.
 
 
 View the original
-[list](http://clarkkampfe.tumblr.com/post/33904700007/album-love) in a
+[list](https://docs.google.com/spreadsheet/pub?key=0ArDppihwaWa6dFdaeV9pOXNTeERqbWVFTFp5bWFuNmc&output=html) in a
 new window.
 
 P.S. I tired telling a girl about this band once. She thought I said

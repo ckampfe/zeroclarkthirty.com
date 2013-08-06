@@ -12,7 +12,7 @@ Anyone who knows me knows that I am not religious.
 
 That said, I have a profound relationship with the song Digital Love.
 This series of album recollections
-([http://clarkkampfe.tumblr.com/post/33904700007/album-love](http://clarkkampfe.tumblr.com/post/33904700007/album-love))
+([Here](https://docs.google.com/spreadsheet/pub?key=0ArDppihwaWa6dFdaeV9pOXNTeERqbWVFTFp5bWFuNmc&output=htm    l))
 has been nothing if not a shameless exercise in solipsistic memory
 association, and Digital Love is, I’m proud to say, no different.
 
