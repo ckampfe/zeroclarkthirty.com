@@ -1,4 +1,4 @@
-<!--
+---
 layout: post
 title: By The Throat - Eyedea and Abilities
 date: 2012-11-07
