@@ -2,11 +2,7 @@
 layout: post
 title: Horrorscope - Eve 6
 date: 2012-10-19
--->
-
-
-Horrorscope - Eve 6
-===================
+---
 
 This is a high school summers album. I can remember cruising around in
 my buddy Calvin’s car banging this album loud as fuck.

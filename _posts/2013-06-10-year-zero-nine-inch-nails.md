@@ -70,7 +70,7 @@ our founding charters by leaking the ill-kept secrets of tired pedants
 and corrupt suits.
 
 Sounds like: [So Long As Men Die, Liberty Will Never
-Perish](%E2%80%9Dhttps://www.youtube.com/watch?v=WibmcsEGLKo%E2%80%9D)
+Perish](https://www.youtube.com/watch?v=WibmcsEGLKo)
 
 View the original
 [list](https://docs.google.com/spreadsheet/pub?key=0ArDppihwaWa6dFdaeV9pOXNTeERqbWVFTFp5bWFuNmc&output=htm    l) in a

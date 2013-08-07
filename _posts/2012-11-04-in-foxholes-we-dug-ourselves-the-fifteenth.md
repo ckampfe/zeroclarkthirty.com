@@ -4,10 +4,6 @@ title: In Foxholes We Dug Ourselves - The Fifteenth
 date: 2012-11-04
 ---
 
-
-In Foxholes We Dug Ourselves - The Fifteenth
-============================================
-
 I don’t even remember how I found this album. Then again, that could be
 the MSG talking. I’m sitting here, eating a crepe, and I feel like I’ve
 been drugged.

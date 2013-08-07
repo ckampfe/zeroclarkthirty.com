@@ -4,10 +4,6 @@ title: The Ugly Organ - Cursive
 date: 2012-10-19
 ---
 
-
-The Ugly Organ - Cursive
-========================
-
 I have a soft spot in my heart for Cursive, being a fellow flatlander
 and all. 
 
