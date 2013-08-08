@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Act II The meaning of and All Things Regarding Ms Leading - The Dear Hunter
+title: Act II... - The Dear Hunter
 date: 2013-02-28
 ---
 
