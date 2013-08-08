@@ -14,7 +14,7 @@ My buddy Calvin showed me Percy Hill sometime between 2006 and 2008 on a
 show choir trip, I think it was. Calvin has introduced me more good
 music than I can remember (Jamiroquai, BT, Me’Shell NdegéOcello among
 many others [super special crushingly funky bonus track:
-[](https://www.youtube.com/watch?v=yxnsl4E8ea4 "The Womb/The Way")[https://www.youtube.com/watch?v=yxnsl4E8ea4](https://www.youtube.com/watch?v=yxnsl4E8ea4)])
+("The Womb/The Way")[https://www.youtube.com/watch?v=yxnsl4E8ea4]
 but I’m particularly indebted to him for Percy Hill. This album has had
 staying power for me in a way that few albums do. 
 
@@ -39,9 +39,7 @@ Sounds like: Love.
 
 
 View the original
-[list](https://docs.google.com/spreadsheet/pub?key=0ArDppihwaWa6dFdaeV9pOXNTeERqbWVFTFp5bWFuNmc&output=html) in a
-new window.
+[list](https://docs.google.com/spreadsheet/pub?key=0ArDppihwaWa6dFdaeV9pOXNTeERqbWVFTFp5bWFuNmc&output=html) in a new window.
 
 P.S. I tired telling a girl about this band once. She thought I said
 “Pussy Hill". That was a fun conversation.
-

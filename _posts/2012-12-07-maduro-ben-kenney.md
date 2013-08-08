@@ -5,9 +5,6 @@ date: 2012-12-07
 ---
 
 
-Maduro - Ben Kenney
-===================
-
 I used to be pretty into Incubus. Granted, they do have some pretty cool
 albums (my review of S.C.I.E.N.C.E. here: 
 [](http://clarkkampfe.tumblr.com/post/33962896745/s-c-i-e-n-c-e-incubus)[http://clarkkampfe.tumblr.com/post/33962896745/s-c-i-e-n-c-e-incubus](http://clarkkampfe.tumblr.com/post/33962896745/s-c-i-e-n-c-e-incubus)).
