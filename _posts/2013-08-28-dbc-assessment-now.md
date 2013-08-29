@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assessment Now \- Dev Bootcamp
+title: Assessment Now - Dev Bootcamp
 date: 2013-08-28
 ---
 
