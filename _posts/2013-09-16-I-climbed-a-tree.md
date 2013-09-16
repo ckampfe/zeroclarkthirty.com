@@ -14,7 +14,7 @@ Considering my prior thoughts in this regard, ABC: Always Be Coding reappared ju
 
 Taking this, I looked at the rest of the piece; what could I practice? Byttow lists a number of suggestions, particularly the passages regarding word problems, data structures, and common algorithms. These are things that I have always found interesting (or at least, the idea of them, being largely ignorant as to their specifics), but have never known where to start. Well, that's over. I know where to start. 
 
-And I have started. Since re-reading this piece a few days ago, I've been reading and writing code nearly nonstop. Aside from my work on [Flashcalcjs][(https://github.com/ckampfe/flashcalcjs), I've been inspired to take a look at sorting algorithms. An excellent series from [Computerphile](https://www.youtube.com/user/Computerphile) on sorting was both informative and fun, so I jumped in that direction. You can see my progress so far [here](https://github.com/ckampfe/sorts). 
+And I have started. Since re-reading this piece a few days ago, I've been reading and writing code nearly nonstop. Aside from my work on [Flashcalcjs](https://github.com/ckampfe/flashcalcjs), I've been inspired to take a look at sorting algorithms. An excellent series from [Computerphile](https://www.youtube.com/user/Computerphile) on sorting was both informative and fun, so I jumped in that direction. You can see my progress so far [here](https://github.com/ckampfe/sorts). 
 
 Maybe this type of thing is droll to those with more established theoretical foundations, but as someone whose background in science begins with "political" rather than "computer", I find it novel and thrilling.
 
