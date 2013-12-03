@@ -116,6 +116,10 @@ li span {
   color: #aaa;
 }
 
+.site #selfie {
+  width: 50%;
+}
+
 .site .footer {
   font-size: 85%;
   color: #C8C8C8;
