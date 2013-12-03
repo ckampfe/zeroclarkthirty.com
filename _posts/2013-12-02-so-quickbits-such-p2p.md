@@ -6,7 +6,7 @@ date: 2013-12-02
 
 I have, for as long as I can remember, been unable to separate my experience
 as a person using the internet from the ethical considerations that come along
-with that realization.
+with that experience.
 
 When I was a little kid, I hated when my parents would force me off the internet.
 Of course I was doing things like creating Expages sites and finding the best
