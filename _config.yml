@@ -1,3 +1,20 @@
 name: Clark Kampfe
 markdown: redcarpet
 pygments: true
+
+# resume data
+resume_datas:
+  - header: education
+    contents:
+      - Dev Bootcamp ;; 9-week intensive web developer program
+      - Gustavus Adolphus College ;; political science
+
+  - header: experience
+    contents:
+      - Tunisia Live ;; photographer
+      - The Gustavian Weekly ;; photography editor
+      - Integration Objects ;; marketing assistant
+
+  - header: skills
+    contents:
+      - ruby, javascript, SQL (postgresql, sqlite), BDD, git, html5/css, retouching

@@ -1,0 +1,12 @@
+---
+layout: default
+title: Resume
+---
+
+<div id="home">
+  <ul style="list-style: none">
+    {% for resume_data in site.resume_datas %}
+      {% include resume_data.html %}
+    {% endfor %}
+  </ul>
+</div>
