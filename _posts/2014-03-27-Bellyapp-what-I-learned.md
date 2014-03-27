@@ -48,4 +48,4 @@ Belly stipulated that I should deploy on Nodejitsu, and this proved to be a bles
 
 * * *
 
-The project -- [Battlestar Mathematica](http://mathchallenge.nodejitsu.com) -- is a super-simple math game I created for the good folks at [Belly](http://bellycard.com) in order to learn a bit about Node.js. The code is licensed AGPL can be found at my Github, [here](https://github.com/ckampfe/battlestar-mathematica).
+The project -- [Battlestar Mathematica](http://mathchallenge.nodejitsu.com) -- is a super-simple math game I created for the good folks at [Belly](http://bellycard.com) in order to learn a bit about Node.js. The code is licensed AGPL and can be found at my Github, [here](https://github.com/ckampfe/battlestar-mathematica).
