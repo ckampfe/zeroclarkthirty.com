@@ -18,3 +18,7 @@ resume_datas:
   - header: skills
     contents:
       - ruby, javascript, SQL (postgresql, sqlite), BDD, git, html5/css, retouching
+
+  - header: interests
+    contents:
+      - <a href="https://github.com/Surram/quickbits">WebRTC</a>, clojure/<a href="https://github.com/ckampfe/scheme.js">scheme</a>, <a href="https://github.com/ckampfe/giffy">command-line scripting/automation</a>
