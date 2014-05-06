@@ -1,0 +1,79 @@
+https://keybase.io/ckampfe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://zeroclarkthirty.com
+  * I am ckampfe (https://keybase.io/ckampfe) on keybase.
+  * I have a public key with fingerprint 3F05 FB27 48D7 6D4C 068F  4AE6 AD1C E181 11AA 1A54
+
+To claim this, I am signing this object:
+
+{
+    body: {
+        client: {
+            name: keybase.io node.js client,
+            version: 0.3.2
+        },
+        key: {
+            fingerprint: 3f05fb2748d76d4c068f4ae6ad1ce18111aa1a54,
+            host: keybase.io,
+            key_id: AD1CE18111AA1A54,
+            uid: a2b1c93ec8cdaf4896cbb87edbeffe00,
+            username: ckampfe
+        },
+        merkle_root: {
+            ctime: 1399334646,
+            hash: dd2c318311f7ae23191136504bf6093edd3ee80f3acf6d0b6852f3d30e42a2561dfd008c69fa978fe2bc59f05511be4a00db56dd6e53e7171da2857de990d632,
+            seqno: 4942
+        },
+        service: {
+            hostname: zeroclarkthirty.com,
+            protocol: http:
+        },
+        type: web_service_binding,
+        version: 1
+    },
+    ctime: 1399335167,
+    expire_in: 157680000,
+    prev: 4e9bf7043f773ae614816764d247b07df3e3bc440e2fbd963ef7ad3313fb77ee,
+    seqno: 3,
+    tag: signature
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkntQFWUYxs/BG8LgMGjmBeboZgKFh/322+tJZ6AQu5mA4+Ao42l3v29hO5c9
+7jkoB0MN/yDzRkbCDI5ASDaEIxCZ5lAT5jCOXCyhxhsxkBkSIk2gJA7tMjTl/rX7
+7e953vd53684YoYlxNp7YtNk8sG0BuuVAcmyMSduchchaShIOHYRslvF3oD55hU9
+mHAQLhyURD+2q9oyr4aw/R3/smkmgdiBdb+qeQ2KtEM7RRQkmLgpVlRvNtZ9ump6
+EVAhGUWiOJpHHItomWR5hRYxKyIgY8ADAEQRiAxtWOZo/sBTVYkpT6eKjNPkFPDK
+2ik+ORkkT/G5Uz9ESgKyALHMy0hUaF5gZUniOYwkrCiYJE3Qj/XpSLJL9PgUbLbr
+wbrLjZ26pk1llgOqSQAoCBDSLM0aDYn+HEODECVDwEMAFE7EFAQCAJBlSFpSWNKo
+jBDEmCcVKMoKi0iJ5RlKgQiSmKZEimEBUhBJ8jIrKKLA8QqmJJkRjLkwAEiYFkkS
+SQyLEIsZiDnAASRSPMMhLAgkYiFlJPDj7V6NcNACTRWYX/oOVcZm1+bMpqPlY12T
+3aLuCuSoeiBolzWPofTpWkCTNbcB5AQCPoeZPBD0mYKGnVhyTns5JdWLjMX9f7PA
+QJ+aCgNYLoHAeT5Vx07VJBiO5UnjMevgHYYnjQVJ4UgaKhwHjTUDmjdELI0ompNI
+DikQQ0mmaRJTioQEFmJjpghCABWJ4zD+Lys0+hSzDUu/mu0VA7m6sbT9IdEzLdYQ
+y+xZIebVtYTNjfz3Pl87G2kp2UKUlcCiTzek95U8DCtqffBaTf+FRX/0VkZtvW/t
+iaaKn3Emejc9yerqXtF8oyPkh6W3+iNtk/VNXe5Rb1z84ZHm47c423d1F58Tm+tG
+M/2zm06ez6g/FvXiYEFB95z3j1S9Wjra0YEvsZd6Ju59SaxcmjczYwFb5qEO1VUn
+V4IYNHEh7n7V5/G5hbFhcTtXvJG50l1+umv2zUPR/sV7Omq4hOVrgoeJfvuc9snr
+jRPzOq7H9IfuHbb27XvpTop2NeLHloyy0Ndzv5XPh1ad+qDkUPiVEdey2uX5w+Hj
+fWf/XMftlcpTf/3ZXvFVbkFq6Redbd2Lqh2O6idjN+jJtHnrs96LmlG4uVbYnhIr
+jDlpqvVtW63Numc47vg9arfj97WNWevG85ecU5LSB1uvdRx4ePTU6ORfR29n9BVv
+bT8a8ahm6HT6E4EuSE1avX6BS16ZUR+d3Zk49GZSify4fKhi0W/BloaB8fTQ7x3t
+ekXo5Y+tx84tecG/bvMn4Q3aGarFcjMvfnXMRt/ggBDYFm2df7d0eVrbfGIVsOxL
+qLTd1sa2fXi+Mbtp7O93d5/5ZctIZtXBm4H4A51RSZUXZ+Ve/SjyRuTzVx7g7ETu
+7AZba+yz8xuHmLzY/KLP7vSs+XrJyyfWptz2LFz4Te/uee7LtruP5mrkT3tjhLZV
+Hurxyf1ZaHHRWyorWgr/AQ==
+=FIo7
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ckampfe
