@@ -1,6 +1,6 @@
 name: Clark Kampfe
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 # resume data
 resume_datas:
