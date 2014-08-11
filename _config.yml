@@ -21,8 +21,8 @@ resume_datas:
 
   - header: skills
     contents:
-      - ruby, javascript/coffeescript, SQL (postgresql, sqlite), BDD, git, html5/css
+      - Ruby, JavaScript/CoffeeScript, SQL (Postgresql, MySQL, SQLite), BDD, Git, HTML5/CSS
 
   - header: interests
     contents:
-      - Angular, SQL, APIs, Backbone, CoffeeScript
+      - Scala, Erlang, SQL, functional programming
