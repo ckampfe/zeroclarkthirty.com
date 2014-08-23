@@ -4,6 +4,9 @@ title: A Wild Microservice Framework Appears
 date: 2014-08-17
 ---
 
+**NOTE: This post appears in final form on the [Belly Card Engineering blog](https://tech.bellycard.com/blog/rest-apis-in-scala/).
+I highly recommend you read the version there. This version is an early draft.**
+
 At Belly, the Platform team are the plumbers, building and maintaining the backend services that move and process the massive amounts of data we encounter every day.
 
 Given our heavy use of [Napa](https://github.com/bellycard/napa) for all things API, I wanted to pick up a side project that would help me learn about services architecture while providing some value to the team -- a sort of R&D project. 
