@@ -51,8 +51,8 @@ def foo(bar, baz)
 
 Type comments like the ones above, while better than nothing, come with no
 compiler guarantee. They'll go out of date, they'll mislead. Really, your
-options become: achieve the same verbosity as Java with none of the benefits
-of a compiler, insult whoever is reading your library by not providing
+options become: have the same verbosity as Java with none of the benefits
+of a compiler or insult whoever is reading your library by not providing
 type information, requiring us to read the entire implementation just to figure
 out the contract.
 
