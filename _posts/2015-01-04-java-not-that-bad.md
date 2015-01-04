@@ -186,7 +186,7 @@ Java The Platform isn't going anywhere, so even if you never code in Java
 The Language you'll probably realize some benefit.
 
 
-### Postscript (no not the language)
+### Postscript (no, not the language)
 
 Java is not my favorite language, and there are significant
 complaints one can raise about it with no remorse. I didn't write this piece to
