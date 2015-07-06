@@ -6,7 +6,7 @@ highlighter: pygments
 resume_datas:
   - header: currently
     contents:
-      - Belly ;; Junior Software Engineer
+      - Belly ;; Data Engineer
 
   - header: education
     contents:
@@ -21,8 +21,8 @@ resume_datas:
 
   - header: skills
     contents:
-      - Ruby, JavaScript/CoffeeScript, SQL (Postgresql, MySQL, SQLite), BDD, Git, HTML5/CSS
+      - Scala, SQL, Ruby, JavaScript
 
   - header: interests
     contents:
-      - Scala, Erlang, SQL, functional programming
+      - Clojure, Elixir

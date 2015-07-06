@@ -9,7 +9,7 @@
 /*  * {
   border: solid 1px black;
 
-} 
+}
 */
 
 
@@ -22,7 +22,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px sans-serif, Helvetica, Arial;
+  font: 13.34px monospace;
   font-size: small;
   text-align: center;
 }
@@ -75,7 +75,7 @@ li span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 38em;
+  width: 44em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
