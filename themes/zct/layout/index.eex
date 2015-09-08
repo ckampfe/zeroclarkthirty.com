@@ -1,0 +1,12 @@
+<div id="home">
+  <h1>Archive</h1>
+  <ul class="posts">
+    <%= @content |> Enum.reverse |> Enum.map fn(post) ->
+      """
+      <li>
+      <a href="#{post.filename}">#{post.frontmatter.title}</a><span>#{post.frontmatter.created}</span>
+      </li>
+      """
+    end %>
+  </ul>
+</div>

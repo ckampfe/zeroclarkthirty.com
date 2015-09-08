@@ -1,10 +1,18 @@
+# elixir stuff
+/_build
+/deps
+drafts
+erl_crash.dump
+*.ez
+
+# ruby
 _site
 _drafts
 
+# vim
 *.swp
-
 *.swo
 
+# mac, etc.
 .DS_Store
-
 *.!sync

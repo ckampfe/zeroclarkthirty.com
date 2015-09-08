@@ -1,6 +1,5 @@
 zeroclarkthirty.com
-===================
+===
 
-It's my blog!
-
-Still lots of borked links, mislinks, etc. Converting between Tumblr and Jekyll is...interesting.
+This project is powered by Obelisk, a static site generator written in Elixir, forked from
+[BennyHallett/obelisk](https://github.com/BennyHallett/obelisk)
