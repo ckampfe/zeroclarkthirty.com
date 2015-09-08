@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Source Tags & Codes - ...And You Will Know Us By The Trail Of Dead
+title: Source Tags & Codes - Trail Of Dead
 created: 2013-02-26
 ---
 
