@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+  <title>Clark Kampfe</title>
+  <link>http://zeroclarkthirty.com</link>
+  <description>Textual Intercourse</description>
+  <lastBuildDate>2015-09-08 04:06:31</lastBuildDate>
+  <language>en-us</language>
+<item>
+  <title>What I'm reading 8/27-9/3</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2015-09-05</pubDate>
+  <link>http://zeroclarkthirty.com/2015-09-05-what-im-reading.html</link>
+  <guid>http://zeroclarkthirty.com/2015-09-05-what-im-reading.html</guid>
+</item>
+<item>
+  <title>What I'm reading 8/19-8/26</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2015-08-27</pubDate>
+  <link>http://zeroclarkthirty.com/2015-08-27-what-im-reading.html</link>
+  <guid>http://zeroclarkthirty.com/2015-08-27-what-im-reading.html</guid>
+</item>
+<item>
+  <title>What I'm reading 8/11-8/18</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2015-08-18</pubDate>
+  <link>http://zeroclarkthirty.com/2015-08-18-what-im-reading.html</link>
+  <guid>http://zeroclarkthirty.com/2015-08-18-what-im-reading.html</guid>
+</item>
+<item>
+  <title>What I'm reading 8/3-8/10</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2015-08-10</pubDate>
+  <link>http://zeroclarkthirty.com/2015-08-10-what-im-reading.html</link>
+  <guid>http://zeroclarkthirty.com/2015-08-10-what-im-reading.html</guid>
+</item>
+<item>
+  <title>What I'm reading 7/26-8/2</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2015-08-02</pubDate>
+  <link>http://zeroclarkthirty.com/2015-08-02-what-im-reading.html</link>
+  <guid>http://zeroclarkthirty.com/2015-08-02-what-im-reading.html</guid>
+</item>
+<item>
+  <title>What I'm reading 7/18-7/25</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2015-07-26</pubDate>
+  <link>http://zeroclarkthirty.com/2015-07-26-what-im-reading.html</link>
+  <guid>http://zeroclarkthirty.com/2015-07-26-what-im-reading.html</guid>
+</item>
+<item>
+  <title>Quit whining. Java just isn't that bad</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2015-01-04</pubDate>
+  <link>http://zeroclarkthirty.com/2015-01-04-java-not-that-bad.html</link>
+  <guid>http://zeroclarkthirty.com/2015-01-04-java-not-that-bad.html</guid>
+</item>
+<item>
+  <title>A Wild Microservice Framework Appears</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2014-08-17</pubDate>
+  <link>http://zeroclarkthirty.com/2014-08-17-a-wild-microservice-framework.html</link>
+  <guid>http://zeroclarkthirty.com/2014-08-17-a-wild-microservice-framework.html</guid>
+</item>
+<item>
+  <title>On College</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2014-05-18</pubDate>
+  <link>http://zeroclarkthirty.com/2014-05-18-on-college.html</link>
+  <guid>http://zeroclarkthirty.com/2014-05-18-on-college.html</guid>
+</item>
+<item>
+  <title>Bellyapp - what I learned</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2014-03-27</pubDate>
+  <link>http://zeroclarkthirty.com/2014-03-27-Bellyapp-what-I-learned.html</link>
+  <guid>http://zeroclarkthirty.com/2014-03-27-Bellyapp-what-I-learned.html</guid>
+</item>
+<item>
+  <title>Church</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2014-02-20</pubDate>
+  <link>http://zeroclarkthirty.com/2014-02-20-church.html</link>
+  <guid>http://zeroclarkthirty.com/2014-02-20-church.html</guid>
+</item>
+<item>
+  <title>Meta-boggled</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2014-01-24</pubDate>
+  <link>http://zeroclarkthirty.com/2014-01-24-meta-boggle.html</link>
+  <guid>http://zeroclarkthirty.com/2014-01-24-meta-boggle.html</guid>
+</item>
+<item>
+  <title>Choices</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2014-01-18</pubDate>
+  <link>http://zeroclarkthirty.com/2014-01-18-choices.html</link>
+  <guid>http://zeroclarkthirty.com/2014-01-18-choices.html</guid>
+</item>
+<item>
+  <title>Client-side scraping with JSONP and YQL</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2014-01-05</pubDate>
+  <link>http://zeroclarkthirty.com/2014-01-05-tag-scraper.html</link>
+  <guid>http://zeroclarkthirty.com/2014-01-05-tag-scraper.html</guid>
+</item>
+<item>
+  <title>Target overload</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-12-25</pubDate>
+  <link>http://zeroclarkthirty.com/2013-12-25-target-overload.html</link>
+  <guid>http://zeroclarkthirty.com/2013-12-25-target-overload.html</guid>
+</item>
+<item>
+  <title>Things to keep in mind</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-12-15</pubDate>
+  <link>http://zeroclarkthirty.com/2013-12-15-to-keep-in-mind.html</link>
+  <guid>http://zeroclarkthirty.com/2013-12-15-to-keep-in-mind.html</guid>
+</item>
+<item>
+  <title>So Quickbits. Such p2p.</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-12-02</pubDate>
+  <link>http://zeroclarkthirty.com/2013-12-02-so-quickbits-such-p2p.html</link>
+  <guid>http://zeroclarkthirty.com/2013-12-02-so-quickbits-such-p2p.html</guid>
+</item>
+<item>
+  <title>Final Projects - is this really happening?</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-11-29</pubDate>
+  <link>http://zeroclarkthirty.com/2013-11-29-is-this-really-happening.html</link>
+  <guid>http://zeroclarkthirty.com/2013-11-29-is-this-really-happening.html</guid>
+</item>
+<item>
+  <title>Update</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-11-24</pubDate>
+  <link>http://zeroclarkthirty.com/2013-11-24-update.html</link>
+  <guid>http://zeroclarkthirty.com/2013-11-24-update.html</guid>
+</item>
+<item>
+  <title>I climbed the tree to see the world</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-09-16</pubDate>
+  <link>http://zeroclarkthirty.com/2013-09-16-I-climbed-a-tree.html</link>
+  <guid>http://zeroclarkthirty.com/2013-09-16-I-climbed-a-tree.html</guid>
+</item>
+<item>
+  <title>Heresy, learning, rebellion, and Texas Instruments</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-09-02</pubDate>
+  <link>http://zeroclarkthirty.com/2013-09-02-heresy-learning.html</link>
+  <guid>http://zeroclarkthirty.com/2013-09-02-heresy-learning.html</guid>
+</item>
+<item>
+  <title>Assessment Now - Dev Bootcamp</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-08-28</pubDate>
+  <link>http://zeroclarkthirty.com/2013-08-28-dbc-assessment-now.html</link>
+  <guid>http://zeroclarkthirty.com/2013-08-28-dbc-assessment-now.html</guid>
+</item>
+<item>
+  <title>Solipsism and empathy</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-08-20</pubDate>
+  <link>http://zeroclarkthirty.com/2013-08-20-failure-solipsism-empathy.html</link>
+  <guid>http://zeroclarkthirty.com/2013-08-20-failure-solipsism-empathy.html</guid>
+</item>
+<item>
+  <title>How much time is too much?</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-08-13</pubDate>
+  <link>http://zeroclarkthirty.com/2013-08-13-how-much-time.html</link>
+  <guid>http://zeroclarkthirty.com/2013-08-13-how-much-time.html</guid>
+</item>
+<item>
+  <title>The increasing divergence of technical skill</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-08-12</pubDate>
+  <link>http://zeroclarkthirty.com/2013-08-12-tech-skill-divergence.html</link>
+  <guid>http://zeroclarkthirty.com/2013-08-12-tech-skill-divergence.html</guid>
+</item>
+<item>
+  <title>Sentence reversal woes</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-08-07</pubDate>
+  <link>http://zeroclarkthirty.com/2013-08-07-sentence-reversal.html</link>
+  <guid>http://zeroclarkthirty.com/2013-08-07-sentence-reversal.html</guid>
+</item>
+<item>
+  <title>Array Enumerators</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-08-07</pubDate>
+  <link>http://zeroclarkthirty.com/2013-08-07-array-enumerators.html</link>
+  <guid>http://zeroclarkthirty.com/2013-08-07-array-enumerators.html</guid>
+</item>
+<item>
+  <title>Dev Bootcamp It has begun!</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-08-06</pubDate>
+  <link>http://zeroclarkthirty.com/2013-08-06-dbc-it-has-begun.html</link>
+  <guid>http://zeroclarkthirty.com/2013-08-06-dbc-it-has-begun.html</guid>
+</item>
+<item>
+  <title>Procs not Crocs</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-08-06</pubDate>
+  <link>http://zeroclarkthirty.com/2013-08-06-Procs-not-Crocs.html</link>
+  <guid>http://zeroclarkthirty.com/2013-08-06-Procs-not-Crocs.html</guid>
+</item>
+<item>
+  <title>Still Here</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-07-18</pubDate>
+  <link>http://zeroclarkthirty.com/2013-07-18-still-here.html</link>
+  <guid>http://zeroclarkthirty.com/2013-07-18-still-here.html</guid>
+</item>
+<item>
+  <title>Year Zero - Nine Inch Nails</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-06-10</pubDate>
+  <link>http://zeroclarkthirty.com/2013-06-10-year-zero-nine-inch-nails.html</link>
+  <guid>http://zeroclarkthirty.com/2013-06-10-year-zero-nine-inch-nails.html</guid>
+</item>
+<item>
+  <title>Transitions - Arts The Beatdoctor</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-06-09</pubDate>
+  <link>http://zeroclarkthirty.com/2013-06-09-transitions-arts-the-beatdoctor.html</link>
+  <guid>http://zeroclarkthirty.com/2013-06-09-transitions-arts-the-beatdoctor.html</guid>
+</item>
+<item>
+  <title>A bit about my photography workflow</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-05-10</pubDate>
+  <link>http://zeroclarkthirty.com/2013-05-10-a-bit-about-my-photography-workflow.html</link>
+  <guid>http://zeroclarkthirty.com/2013-05-10-a-bit-about-my-photography-workflow.html</guid>
+</item>
+<item>
+  <title>One Hot Minute - Red Hot Chili Peppers</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-03-31</pubDate>
+  <link>http://zeroclarkthirty.com/2013-03-31-one-hot-minute-red-hot-chili-peppers.html</link>
+  <guid>http://zeroclarkthirty.com/2013-03-31-one-hot-minute-red-hot-chili-peppers.html</guid>
+</item>
+<item>
+  <title>Living Well Is The Best Revenge - Midtown</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-03-11</pubDate>
+  <link>http://zeroclarkthirty.com/2013-03-11-living-well-is-the-best-revenge-midtown.html</link>
+  <guid>http://zeroclarkthirty.com/2013-03-11-living-well-is-the-best-revenge-midtown.html</guid>
+</item>
+<item>
+  <title>Menos el Oso - Minus the Bear</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-03-10</pubDate>
+  <link>http://zeroclarkthirty.com/2013-03-10-menos-el-oso-minus-the-bear.html</link>
+  <guid>http://zeroclarkthirty.com/2013-03-10-menos-el-oso-minus-the-bear.html</guid>
+</item>
+<item>
+  <title>In Keeping Secrets of Silent Earth 3 - Coheed and Cambria</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-03-05</pubDate>
+  <link>http://zeroclarkthirty.com/2013-03-05-in-keeping-secrets-of-silent-earth-3-coheed-and.html</link>
+  <guid>http://zeroclarkthirty.com/2013-03-05-in-keeping-secrets-of-silent-earth-3-coheed-and.html</guid>
+</item>
+<item>
+  <title>Song Review - Hello - Martin Solveig featuring Dragonette</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-03-03</pubDate>
+  <link>http://zeroclarkthirty.com/2013-03-03-song-review-hello-martin-solveig-featuring.html</link>
+  <guid>http://zeroclarkthirty.com/2013-03-03-song-review-hello-martin-solveig-featuring.html</guid>
+</item>
+<item>
+  <title>Live Friday The 13th - Maroon 5</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-03-03</pubDate>
+  <link>http://zeroclarkthirty.com/2013-03-03-live-friday-the-13th-maroon-5.html</link>
+  <guid>http://zeroclarkthirty.com/2013-03-03-live-friday-the-13th-maroon-5.html</guid>
+</item>
+<item>
+  <title>A Strange Education - Cinematics</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-03-03</pubDate>
+  <link>http://zeroclarkthirty.com/2013-03-03-a-strange-education-the-cinematics.html</link>
+  <guid>http://zeroclarkthirty.com/2013-03-03-a-strange-education-the-cinematics.html</guid>
+</item>
+<item>
+  <title>Act II... - The Dear Hunter</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-28</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-28-act-ii-the-meaning-of-all-things-regarding-ms.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-28-act-ii-the-meaning-of-all-things-regarding-ms.html</guid>
+</item>
+<item>
+  <title>Source Tags & Codes - ...And You Will Know Us By The Trail Of Dead</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-26</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-26-source-tags-codes-and-you-will-know-us-by-the.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-26-source-tags-codes-and-you-will-know-us-by-the.html</guid>
+</item>
+<item>
+  <title>Song Review - Anne - John Frusciante</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-26</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-26-song-review-anne-john-frusciante.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-26-song-review-anne-john-frusciante.html</guid>
+</item>
+<item>
+  <title>Doppelgänger - The Fall of Troy</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-23</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-23-doppelganger-the-fall-of-troy.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-23-doppelganger-the-fall-of-troy.html</guid>
+</item>
+<item>
+  <title>Elephant Dreams - Grasshopper Takeover</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-20</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-20-elephant-dreams-grasshopper-takeover.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-20-elephant-dreams-grasshopper-takeover.html</guid>
+</item>
+<item>
+  <title>Tragic Kingdom - No Doubt</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-13</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-13-tragic-kingdom-no-doubt.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-13-tragic-kingdom-no-doubt.html</guid>
+</item>
+<item>
+  <title>Forget What You Know - Midtown</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-07</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-07-26-ben-kenney.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-07-26-ben-kenney.html</guid>
+</item>
+<item>
+  <title>Your Favorite Weapon - Brand New</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-03</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-03-your-favorite-weapon-brand-new.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-03-your-favorite-weapon-brand-new.html</guid>
+</item>
+<item>
+  <title>The Bends - Radiohead</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-03</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-03-the-bends-radiohead.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-03-the-bends-radiohead.html</guid>
+</item>
+<item>
+  <title>Discovery - Daft Punk</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-03</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-03-discovery-daft-punk.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-03-discovery-daft-punk.html</guid>
+</item>
+<item>
+  <title>Audition - P.O.S.</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-03</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-03-audition-p-o-s.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-03-audition-p-o-s.html</guid>
+</item>
+<item>
+  <title>As Tall As Lions - As Tall As Lions</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-02-03</pubDate>
+  <link>http://zeroclarkthirty.com/2013-02-03-as-tall-as-lions-as-tall-as-lions.html</link>
+  <guid>http://zeroclarkthirty.com/2013-02-03-as-tall-as-lions-as-tall-as-lions.html</guid>
+</item>
+<item>
+  <title>Putting The Days To Bed - The Long Winters</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-01-09</pubDate>
+  <link>http://zeroclarkthirty.com/2013-01-09-putting-the-days-to-bed-the-long-winters.html</link>
+  <guid>http://zeroclarkthirty.com/2013-01-09-putting-the-days-to-bed-the-long-winters.html</guid>
+</item>
+<item>
+  <title>You Can't Imagine How Much Fun We're Having - Atmposphere</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2013-01-02</pubDate>
+  <link>http://zeroclarkthirty.com/2013-01-02-you-cant-imagine-how-much-fun-were-having.html</link>
+  <guid>http://zeroclarkthirty.com/2013-01-02-you-cant-imagine-how-much-fun-were-having.html</guid>
+</item>
+<item>
+  <title>Sound Awake - Karnivool</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-12-30</pubDate>
+  <link>http://zeroclarkthirty.com/2012-12-30-sound-awake-karnivool.html</link>
+  <guid>http://zeroclarkthirty.com/2012-12-30-sound-awake-karnivool.html</guid>
+</item>
+<item>
+  <title>Silent Alarm - Bloc Party</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-12-28</pubDate>
+  <link>http://zeroclarkthirty.com/2012-12-28-silent-alarm-bloc-party.html</link>
+  <guid>http://zeroclarkthirty.com/2012-12-28-silent-alarm-bloc-party.html</guid>
+</item>
+<item>
+  <title>...And The Battle Begun - RX Bandits</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-12-28</pubDate>
+  <link>http://zeroclarkthirty.com/2012-12-28-and-the-battle-begun-rx-bandits.html</link>
+  <guid>http://zeroclarkthirty.com/2012-12-28-and-the-battle-begun-rx-bandits.html</guid>
+</item>
+<item>
+  <title>What Did You Expect from The Vaccines? - The Vaccines</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-12-22</pubDate>
+  <link>http://zeroclarkthirty.com/2012-12-22-what-did-you-expect-from-the-vaccines-the-vaccines.html</link>
+  <guid>http://zeroclarkthirty.com/2012-12-22-what-did-you-expect-from-the-vaccines-the-vaccines.html</guid>
+</item>
+<item>
+  <title>Songs About Jane - Maroon 5</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-12-13</pubDate>
+  <link>http://zeroclarkthirty.com/2012-12-13-songs-about-jane-maroon-5.html</link>
+  <guid>http://zeroclarkthirty.com/2012-12-13-songs-about-jane-maroon-5.html</guid>
+</item>
+<item>
+  <title>Evil Empire - Rage Against the Machine</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-12-11</pubDate>
+  <link>http://zeroclarkthirty.com/2012-12-11-evil-empire-rage-against-the-machine.html</link>
+  <guid>http://zeroclarkthirty.com/2012-12-11-evil-empire-rage-against-the-machine.html</guid>
+</item>
+<item>
+  <title>Maduro - Ben Kenney</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-12-07</pubDate>
+  <link>http://zeroclarkthirty.com/2012-12-07-maduro-ben-kenney.html</link>
+  <guid>http://zeroclarkthirty.com/2012-12-07-maduro-ben-kenney.html</guid>
+</item>
+<item>
+  <title>Hurry Up, We're Dreaming part 2 - M83</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-11-30</pubDate>
+  <link>http://zeroclarkthirty.com/2012-11-30-hurry-up-were-dreaming-part-2-m83.html</link>
+  <guid>http://zeroclarkthirty.com/2012-11-30-hurry-up-were-dreaming-part-2-m83.html</guid>
+</item>
+<item>
+  <title>Hurry Up, Were Dreaming Part 1 - M83</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-11-30</pubDate>
+  <link>http://zeroclarkthirty.com/2012-11-30-hurry-up-were-dreaming-part-1-m83.html</link>
+  <guid>http://zeroclarkthirty.com/2012-11-30-hurry-up-were-dreaming-part-1-m83.html</guid>
+</item>
+<item>
+  <title>Forget What You Know - Midtown</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-11-25</pubDate>
+  <link>http://zeroclarkthirty.com/2012-11-25-forget-what-you-know-midtown.html</link>
+  <guid>http://zeroclarkthirty.com/2012-11-25-forget-what-you-know-midtown.html</guid>
+</item>
+<item>
+  <title>Dynamite - Jamiroquai</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-11-23</pubDate>
+  <link>http://zeroclarkthirty.com/2012-11-23-dynamite-jamiroquai.html</link>
+  <guid>http://zeroclarkthirty.com/2012-11-23-dynamite-jamiroquai.html</guid>
+</item>
+<item>
+  <title>Carencro - Marc Broussard</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-11-18</pubDate>
+  <link>http://zeroclarkthirty.com/2012-11-18-carencro-marc-broussard.html</link>
+  <guid>http://zeroclarkthirty.com/2012-11-18-carencro-marc-broussard.html</guid>
+</item>
+<item>
+  <title>Hold Your Color - Pendulum</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-11-15</pubDate>
+  <link>http://zeroclarkthirty.com/2012-11-15-hold-your-colour-pendulum.html</link>
+  <guid>http://zeroclarkthirty.com/2012-11-15-hold-your-colour-pendulum.html</guid>
+</item>
+<item>
+  <title>By The Throat - Eyedea and Abilities</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-11-07</pubDate>
+  <link>http://zeroclarkthirty.com/2012-11-07-by-the-throat-eyedea-and-abilities.html</link>
+  <guid>http://zeroclarkthirty.com/2012-11-07-by-the-throat-eyedea-and-abilities.html</guid>
+</item>
+<item>
+  <title>Rules of the Road</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-11-04</pubDate>
+  <link>http://zeroclarkthirty.com/2012-11-04-rules-of-the-road.html</link>
+  <guid>http://zeroclarkthirty.com/2012-11-04-rules-of-the-road.html</guid>
+</item>
+<item>
+  <title>In Foxholes We Dug Ourselves - The Fifteenth</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-11-04</pubDate>
+  <link>http://zeroclarkthirty.com/2012-11-04-in-foxholes-we-dug-ourselves-the-fifteenth.html</link>
+  <guid>http://zeroclarkthirty.com/2012-11-04-in-foxholes-we-dug-ourselves-the-fifteenth.html</guid>
+</item>
+<item>
+  <title>Just Once EP - How to Dress Well</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-10-27</pubDate>
+  <link>http://zeroclarkthirty.com/2012-10-27-just-once-ep-how-to-dress-well.html</link>
+  <guid>http://zeroclarkthirty.com/2012-10-27-just-once-ep-how-to-dress-well.html</guid>
+</item>
+<item>
+  <title>Emergency & I - The Dismemberment Plan</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-10-27</pubDate>
+  <link>http://zeroclarkthirty.com/2012-10-27-emergency-i-the-dismemberment-plan.html</link>
+  <guid>http://zeroclarkthirty.com/2012-10-27-emergency-i-the-dismemberment-plan.html</guid>
+</item>
+<item>
+  <title>Fortress - Protest The Hero</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-10-26</pubDate>
+  <link>http://zeroclarkthirty.com/2012-10-26-fortress-protest-the-hero.html</link>
+  <guid>http://zeroclarkthirty.com/2012-10-26-fortress-protest-the-hero.html</guid>
+</item>
+<item>
+  <title>All of a Sudden I Miss Everyone - Explosions in the Sky</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-10-23</pubDate>
+  <link>http://zeroclarkthirty.com/2012-10-23-all-of-a-sudden-i-miss-everyone-explosions-in-the-sky.html</link>
+  <guid>http://zeroclarkthirty.com/2012-10-23-all-of-a-sudden-i-miss-everyone-explosions-in-the-sky.html</guid>
+</item>
+<item>
+  <title>After All - Percy Hill</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-10-21</pubDate>
+  <link>http://zeroclarkthirty.com/2012-10-21-after-all-percy-hill.html</link>
+  <guid>http://zeroclarkthirty.com/2012-10-21-after-all-percy-hill.html</guid>
+</item>
+<item>
+  <title>S.C.I.E.N.C.E. - Incubus</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-10-20</pubDate>
+  <link>http://zeroclarkthirty.com/2012-10-20-s-c-i-e-n-c-e-incubus.html</link>
+  <guid>http://zeroclarkthirty.com/2012-10-20-s-c-i-e-n-c-e-incubus.html</guid>
+</item>
+<item>
+  <title>The Ugly Organ - Cursive</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-10-19</pubDate>
+  <link>http://zeroclarkthirty.com/2012-10-19-the-ugly-organ-cursive.html</link>
+  <guid>http://zeroclarkthirty.com/2012-10-19-the-ugly-organ-cursive.html</guid>
+</item>
+<item>
+  <title>Never, Never, Land - UNKLE</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-10-19</pubDate>
+  <link>http://zeroclarkthirty.com/2012-10-19-never-never-land-unkle.html</link>
+  <guid>http://zeroclarkthirty.com/2012-10-19-never-never-land-unkle.html</guid>
+</item>
+<item>
+  <title>Horrorscope - Eve 6</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-10-19</pubDate>
+  <link>http://zeroclarkthirty.com/2012-10-19-horrorscope-eve-6.html</link>
+  <guid>http://zeroclarkthirty.com/2012-10-19-horrorscope-eve-6.html</guid>
+</item>
+<item>
+  <title>Album Love</title>
+  <description>[CDATA[  ]]</description>
+  <pubDate>2012-10-19</pubDate>
+  <link>http://zeroclarkthirty.com/2012-10-19-album-love.html</link>
+  <guid>http://zeroclarkthirty.com/2012-10-19-album-love.html</guid>
+</item>
+</channel>
+</rss>

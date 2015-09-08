@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Clark Kampfe</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
+        
+
+        <!-- Custom CSS -->
+        <!-- <link rel="stylesheet" href="/css/main.css"> -->
+        <link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/syntax.css" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/favicon.png">
+    </head>
+    <body>
+
+        <div class="container">
+          <div class="site">
+            <div class="header">
+              <h1 class="title"><a href="/">Clark Kampfe</a></h1>
+              <a class="extra" href="/about.html">about</a>
+              <a class="extra" href="/resume.html">resume</a>
+
+            </div>
+
+            <h2>Bellyapp - what I learned</h2>
+<p class="meta">2014-03-27</p>
+
+<div class="post">
+  <p>So I created a little <a href="http://mathchallenge.nodejitsu.com">math game</a> as part of
+applying to the folks over at <a href="http://bellycard.com">Belly</a>.</p>
+<p>A few observations I’ve collected over the course of building my first-ever
+Node app:</p>
+<p>###Learning Node has been fun. No, really. Hi haters
+It’s easy to talk shit about Node. Too easy. “One thread?! A community of children?! JavaScript?! Callback Hell?!” You get the idea. Programmer opinions are: 1. A dime a dozen; 2. Never particularly difficult to take or hold; and therefor 3. Boring. I’m not going to say Node is awesome and should be used for everything (I don’t really know anything about anything yet, anyway), but I had fun learning it. It just wasn’t that hard to wrap my head around after getting to know something like Sinatra or Rails.</p>
+<p>As a platform to bang out little APIs or socket interfaces, it is really cool. The standard lib is OK, the modularization capabilities are awesome (really, <code class="inline">var something = require(&#39;something&#39;);</code>  and the ability to simply, easily <code class="inline">module.exports</code> your own modules is is great), and the networked nature of the whole thing ‘just works’. Require http and maybe Express if that’s your cup of tea, throw up a server, and bang, you’re working.</p>
+<p>I have not dug into Node as much as I would like (stuff like streams, promises, and generators all sound interesting), but I plan to come back to it if I have a project that is network heavy and/or has no requirement for a relational database. Node itself is like anything else: good at somet things, bad at most. For this reason (and the fact that it is based on JavaScript, which will outlive us all) I think it should have a place on my metaphorical Batman utility belt.</p>
+<p>###Async integration tests are tough
+Selenium itself may be somewhat clunky — and with rather verbose Java-esque APIs —
+but the real problem I had was expecting actions to have completed or
+fired by the time an assertion ran. The nature of asynchronous code mixed with
+my inexperience with this programming style ensured that this was a frustrating experience at times.</p>
+<p>That said, testing the app’s socketed behavior itself wasn’t that hard after I found <a href="http://liamkaufman.com/blog/2012/01/28/testing-socketio-with-mocha-should-and-socketio-client/">this post</a> about testing Socket.io. Socket.io is itself well documented, and applying this documentation via Mocha proved to be fun and insightful.</p>
+<p>###npm is pretty neat
+Really. I had a great experience getting dependencies, <strong>automatically</strong> loading them into my package.json file. Properly declaring which were true runtime dependencies and which were dev/test dependencies — again, automatically — was pretty neat as well. This is something that Rubygems should have had years ago. Maybe it does and I’m just a noob chump who doesn’t know stuff. (FYI, this is definitely true.)</p>
+<p>###Loading frontend dependencies/libs/modules is an absolute shitshow
+As someone who has to this point been content to enjoy the sense of smug satisfaction and high-minded sophistication in the backend programming community, I’m fairly sure at this point that 90% of the reason why people hate JavaScript is that the process of attempting to synchronously load dependencies in an asynchronous environment is horrific (the first 5% of the remaining 10% has to do with the world’s worst type coercion and the other 5% is related to the fact that every. fucking. library. is called. $LIBRARY.js. I KNOW IT’S JAVASCRIPT, OK? CAN YOU HEAR ME BRENDAN?).</p>
+<p>This isn’t Node’s fault, really. It’s more of a JS language/browser antifeature, from what I can make out over the sound of everyone’s braying. Apparently this is to be rectified or at least address in ES6, which would be nifty. JavaScript is a fun functional language, and it deserves at least the dignity of not having its pants fall down in front of the entire school.</p>
+<p>In creating <a href="http://mathchallenge.nodejitsu.com">Battlestar Mathematica</a> I went with <a href="http://requirejs.org/">RequireJS</a>, which is probably known to every man and beast who has done frontend work, ever. Since I’m a noob, I attempted to figure it out from square zero. Let me just say: you know there is something wrong with frontend package management when explaining the process and method of loading dependencies takes as many words as there are in the RequireJS site. My impression was not aided by the fact that I had to modify a few of my helper modules to take the RequireJS’ module format as opposed to the AMD/Node format. Grumble grumble duplicate code grumble.</p>
+<p>###I should have gone with <a href="http://chaijs.com/">chai</a> instead of <a href="https://github.com/visionmedia/should.js">should.js</a>
+Should.js isn’t bad. It’s a nice little TDD framework that does most of what anyone could want. I had two main problems with it. First, from the fact that it is based on the <code class="inline">Object.action.should.eql(something)</code> assertion grammar. I was looking for a more BDD-style grammer, ie, <code class="inline">expect(Object.action).to.eql(something)</code>. It’s not a big deal, but I wanted to be consistent with what I already know (and am still learning) about RSpec.</p>
+<p>The second problem is related to Should.js’ lack of integration with Selenium and node-webdriver. I found the overall experience with Selenium to be clunky. Only after completing most of my integration tests through a non-zero degree of tedium and irritation did I find <a href="http://chaijs.com/">chai</a> and its <a href="http://chaijs.com/plugins/chai-webdriver">webdriver extension</a> that nicely wraps Selenium. :(</p>
+<p>###Jade is nice
+Though I ended up pulling it out and using <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>, I started this project off using <a href="http://jade-lang.com/">Jade</a>. Created by the prolific TJ Holowaychuk (a man who seems to be pulling up the Node community by sheer force of will), Jade is a whitespace-sensitive markup language that compiles to HTML. It resembles/is basically Haml, which is something I also have little experience with. Jade and I had fun during the brief time we spent together, doing away with formalities like &lt; and &gt; and the like.</p>
+<p>###Deploying Node apps is stupid-easy
+Belly stipulated that I should deploy on Nodejitsu, and this proved to be a blessing. Deploying on Nodejitsu was almost insultingly easy. After wrestling with the Rails asset pipeline on Heroku, fighting Heroku’s silly inability to properly provision Websockets in 2014, and figuring out how rearchitect and deploy to AWS in an emergency, this deployment was like a gentle massage combined with Mom’s chocolate chip cookies. Download Nodejitsu’s command-line utility. Run it. It asks you a few questions about the project, checks the validity package.json file, and then uploads your project and spins up an instance. Are you not entertained?</p>
+<hr/ class="thick">
+<p>The project — <a href="http://mathchallenge.nodejitsu.com">Battlestar Mathematica</a> — is a super-simple math game I created for the good folks at <a href="http://bellycard.com">Belly</a> in order to learn a bit about Node.js. The code is licensed AGPL and can be found at my Github, <a href="https://github.com/ckampfe/battlestar-mathematica">here</a>.</p>
+
+</div>
+
+
+            <div class="footer">
+              <div class="contact">
+                <p>
+                  <a href="http://github.com/ckampfe/">github</a><br />
+                  <a href="http://twitter.com/clarkkampfe/">twitter</a><br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /container -->
+    </body>
+</html>

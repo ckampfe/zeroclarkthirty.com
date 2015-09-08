@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Clark Kampfe</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
+        
+
+        <!-- Custom CSS -->
+        <!-- <link rel="stylesheet" href="/css/main.css"> -->
+        <link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/syntax.css" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/favicon.png">
+    </head>
+    <body>
+
+        <div class="container">
+          <div class="site">
+            <div class="header">
+              <h1 class="title"><a href="/">Clark Kampfe</a></h1>
+              <a class="extra" href="/about.html">about</a>
+              <a class="extra" href="/resume.html">resume</a>
+
+            </div>
+
+            <h2>Client-side scraping with JSONP and YQL</h2>
+<p class="meta">2014-01-05</p>
+
+<div class="post">
+  <p>These past few weeks I’ve been working on a freelance project for a
+client in SEO/PPC marketing.</p>
+<p>The client desired something that most people would probably recognize as a
+scraper: acquire some select information from a target website and render it into
+some desired form.</p>
+<p>Specifically, the client wants to be able to input a URL and a list of HTML tags
+and receive information about the contents of those tags from the given page.
+For example, if the user wishes to view the ‘a’ tags of a given site, assuming a
+link like so:</p>
+<p>{% highlight html %}</p>
+<a href="http://espn.com" class="body_link">sports and stuff</a><p>{% endhighlight %}</p>
+<p>the program should display</p>
+<li>href: http://espn.com</li><li>content: sports and stuff</li><li>class: body_link</li><p>Now, before anyone yells out “Nokogiri you fool!”, I know. This
+project will likely end up as a Sinatra app based on Nokogiri. We did some work
+with Nokogiri at DBC and I feel like I could whip up a working solution fairly
+quickly.</p>
+<p>However, because the time frame of the project is fairly open-ended, I wanted to
+do something a bit different. A bit of experimentation.</p>
+<p>This idea hit me that, given the present minimal requirements of the project (no
+persistence of data, authentication, etc.), why not try to do
+it all on the client side?</p>
+<p>I thought I would cook up some AJAX and be done with it in a day or two.</p>
+<p>I hit a snag, though, when I discovered that AJAX can only be used to request
+sites from the same domain as the requesting site. This is known as the
+<a href="http://en.m.wikipedia.org/wiki/Same-origin_policy">same-origin policy</a>, and it is in
+place to protect users from potentially malicious 3rd-party code injected by
+incompetent or nefarious developers.</p>
+<p>There are a number of ways to work around the same-origin policy, however I
+ended up going with a method called
+<a href="http://en.m.wikipedia.org/wiki/JSONP">JSONP</a>. JSONP refers to “JSON with
+padding”.</p>
+<p>JSONP is a hack that works around the same-origin policy through a loophole in
+how JavaScript files are typically loaded in HTML documents: it injects a
+script tag into the document which points to the desired
+non-local resource. JSONP works because script tags do not abide by the
+same-origin policy, and will load damn near anything that resembles a standard
+uri scheme.</p>
+<p>The browser then immediately loads the resource specificed in the script
+tag’s src attribute, returning the response as a JSON object wrapped in a callback.
+The callback — which has been predefined in the JavaScript environment to take a response
+argument — is the “P” in JSONP, serving to “pad” the otherwise normal JSON so that it can
+be brought into the working environment.</p>
+<p>The catch with JSONP is that the requested endpoint must return something
+JavaScript-like: JSON or actual JavaScript. But what
+if not every site serves its contents as JSON?</p>
+<p>To get around this in my implementation, my JSONP requests go to Yahoo’s YQL console,
+which does return JSON. The YQL console is a handy application that allows one to make
+queries across the web in a SQL-like syntax. The user’s target URL is passed in and
+used to construct a YQL query, like so:</p>
+<p>{% highlight javascript %}
+function makeUrl(targetUrl) {
+  var baseURI          = “<a href="http://query.yahooapis.com/v1/public/yql?q=">http://query.yahooapis.com/v1/public/yql?q=</a>“,</p>
+<pre><code>encodedTargetUrl = encodeURIComponent(&#39;http://&#39;) + targetUrl,
+  encodedQuery     = encodeURI(&quot;select * from html where url&quot;)
+                     + encodeURIComponent(&quot;=&#39;&quot;) + encodedTargetUrl + &quot;\&#39;&quot;,
+  suffix           = &quot;&amp;format=json&amp;diagnostics=true&amp;callback=yahooHandler&quot;;</code></pre>
+<p>  return baseURI + encodedQuery + suffix;
+}
+{% endhighlight %}</p>
+<p>When the user fills in their desired information and clicks the submit button,
+this constructs the URL…</p>
+<p>{% highlight javascript %}
+function clickHandler(targetUrl, tags, targets, event){
+  event.preventDefault();
+  TAGS = tags.split(‘ ‘);
+  TARGETS = targets.split(‘ ‘);
+  insertScriptTag(makeUrl(targetUrl));
+}
+{% endhighlight %}
+…and injects it…</p>
+<p>{% highlight javascript  %}
+function insertScriptTag(url) {
+  var scriptEl  = document.createElement(“script”);
+  scriptEl.type = “text/javascript”;
+  scriptEl.src  = url;
+  document.body.appendChild(scriptEl);
+}
+{% endhighlight %}</p>
+<p>…eventually handling the JSON response, parsing it, and displaying the
+results to the user.</p>
+
+</div>
+
+
+            <div class="footer">
+              <div class="contact">
+                <p>
+                  <a href="http://github.com/ckampfe/">github</a><br />
+                  <a href="http://twitter.com/clarkkampfe/">twitter</a><br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /container -->
+    </body>
+</html>
