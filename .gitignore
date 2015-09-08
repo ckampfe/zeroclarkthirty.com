@@ -4,6 +4,7 @@
 drafts
 erl_crash.dump
 *.ez
+build/
 
 # ruby
 _site
