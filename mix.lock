@@ -4,7 +4,7 @@
   "earmark": {:hex, :earmark, "0.1.17"},
   "meck": {:hex, :meck, "0.8.3"},
   "mock": {:hex, :mock, "0.1.1"},
-  "obelisk": {:git, "git://github.com/ckampfe/obelisk.git", "35e64ea78e86ed5519eb6fe56e3a6a3843f0bd34", []},
+  "obelisk": {:git, "git://github.com/ckampfe/obelisk.git", "7713fbae54ae1d9d0db8fa7968e31d54d705c750", []},
   "plug": {:hex, :plug, "1.0.0"},
   "ranch": {:hex, :ranch, "1.1.0"},
   "rss": {:hex, :rss, "0.2.1"},
