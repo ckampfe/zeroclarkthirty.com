@@ -23,9 +23,9 @@ created: 2015-09-13
 
 # Skills
 
-- Scala, SQL, Ruby, JavaScript
+- Scala, SQL, Elixir, Ruby, AWS
 
 
 # Interests
 
-- Elixir, Clojure
+- photography, writing, politics, free software, media, law
