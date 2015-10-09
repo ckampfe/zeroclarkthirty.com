@@ -15,7 +15,7 @@ defmodule Zct.Mixfile do
   end
 
   defp deps do
-    [{:obelisk, "~> 0.11", github: "ckampfe/obelisk"},
+    [{:obelisk, "~> 0.10", github: "ckampfe/obelisk"},
      {:yamerl, github: "yakaz/yamerl"}]
   end
 end
