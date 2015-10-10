@@ -2,7 +2,7 @@
   "cowboy": {:hex, :cowboy, "1.0.3"},
   "cowlib": {:hex, :cowlib, "1.0.1"},
   "earmark": {:hex, :earmark, "0.1.17"},
-  "obelisk": {:git, "https://github.com/ckampfe/obelisk.git", "043f181fe9a66cf20ccec00899185382afa7b359", []},
+  "obelisk": {:git, "https://github.com/ckampfe/obelisk.git", "7ad9f341a5fa81093e9ddf1f7496c29e0b878c9e", []},
   "plug": {:hex, :plug, "1.0.2"},
   "ranch": {:hex, :ranch, "1.1.0"},
   "rss": {:hex, :rss, "0.2.1"},
