@@ -75,9 +75,15 @@ li span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 44em;
+  max-width: 44em;
   margin: 3em auto 2em;
+  padding: 0 7% 0;
   line-height: 1.5em;
+  display: inline-block;
+}
+
+.site #home {
+  min-width: 44em;
 }
 
 .site .header a {
