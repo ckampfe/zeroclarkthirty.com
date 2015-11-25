@@ -3,7 +3,7 @@
     <%= @content |> Enum.map fn(post) ->
       """
       <li>
-      <a href="#{post.filename}">#{post.frontmatter.title}</a><span>#{post.frontmatter.created}</span>
+      <a href="#{Path.basename(post.path)}">#{post.frontmatter.title}</a><span>#{post.frontmatter.created}</span>
       </li>
       """
     end %>
