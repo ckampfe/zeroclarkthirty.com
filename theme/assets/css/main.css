@@ -16,12 +16,14 @@
 * {
   margin: 0;
   padding: 0;
+  background: #F9F9F9;
+  color: #444;
 }
 
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #F9F9F9;
   font: 13.34px monospace;
   font-size: small;
   text-align: center;
@@ -106,7 +108,7 @@ li span {
 
 .site .header h1.title a:hover {
   color: gray;
-  background-color: white;
+  background-color: #F9F9F9;
 }
 
 .site .header a.extra {
@@ -185,7 +187,7 @@ li span {
 
 .post a:hover {
   color: gray;
-  background-color: white;
+  background-color: #F9F9F9;
 
 .post ul, .post ol {
   margin-left: 1.35em;
