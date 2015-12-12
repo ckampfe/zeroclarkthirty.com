@@ -1,6 +1,6 @@
 ---
 layout: post
-title: what I'm reading 11/30-12/7
+title: What I'm reading 11/30-12/7
 created: 2015-12-07
 ---
 
