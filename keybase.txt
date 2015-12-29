@@ -77,3 +77,85 @@ And finally, I am proving ownership of this host by posting or
 appending to this document.
 
 View my publicly-auditable identity here: https://keybase.io/ckampfe
+
+==================================================================
+https://keybase.io/ckampfe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zeroclarkthirty.com
+  * I am ckampfe (https://keybase.io/ckampfe) on keybase.
+  * I have a public key with fingerprint 3F05 FB27 48D7 6D4C 068F  4AE6 AD1C E181 11AA 1A54
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01011d93f4976d710ce82cb194d709f3dbb3df315c524083a3f44cf3d12203a7747b0a",
+            "fingerprint": "3f05fb2748d76d4c068f4ae6ad1ce18111aa1a54",
+            "host": "keybase.io",
+            "key_id": "ad1ce18111aa1a54",
+            "kid": "01011d93f4976d710ce82cb194d709f3dbb3df315c524083a3f44cf3d12203a7747b0a",
+            "uid": "a2b1c93ec8cdaf4896cbb87edbeffe00",
+            "username": "ckampfe"
+        },
+        "revoke": {
+            "sig_ids": [
+                "bae36ee588dd70d043920caaa69658992dc59aa1165be9f05f2a952f53d240650f"
+            ]
+        },
+        "service": {
+            "hostname": "zeroclarkthirty.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1451432943,
+    "expire_in": 157680000,
+    "prev": "8771af5d70840637a4f7c22b5ac7f289150dabadd39d99ea68ce8b0074083500",
+    "seqno": 24,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMOHAnicrZJ9TJVVHMfv7SYzELwgLyFzysOyJMDn/eVGC0bYrJFuBM2A3c7zPOe5
+9xncF557uUjIEDAdwgCVoFyBSEjEZIETKMwBQqGswZJsNQzIlkzYDGRJFN7OJfuv
+Pzv/nJ2z7+/7+5zv74wEGnT++tmmDG9y9cFu/fjQWoEusyLqfjEmOuQizFSM5cKN
+DebJ0OU256oyZsJwAicIWaAUWuBYmSNwCfKkJBICLXO4oFCyKFKyQhGMxJA0zlMA
+KWkJ3RMkiVOA42hOxAEWhymq3QI1p6ba3ciWUnBGEUmO5mVkS0s4yys0gCyQCQkS
+PEEQABCAoVGh1eHyVSA4EbhggupAd+hg3sD7D/3/zF3wTx9SJCSBghIvyUCheYGV
+RJHnoCxCRYE47hO6oGYHNojUUi6wORWIlcRhGvQ4cqEvVpdqQcwuzJSFiQBSLIQM
+z8uIRsZpSiBxCQDACizDCwIpS4yAHkSwjAgFX1QkEBhSYSgZwbIMrmA5yBs19KjS
+hrkvpMfN34GaQ8oDWq7bqmruogTJYUN0Ts3hdkiOPCSwut1Ol8kH5y5y+ioKoWh+
+7GUWVbuMJoUqPFBzqQ47ZiKQUnKrPnOCZgiaIgWaisPgYaeqQbPqUzAcy+No+fpA
+D7LkOY4ACoNexyNgigO0wkkkKTJA4hSSFwgGl4EIZJkSZEGAgOXRfEQc53yzYDby
+dMF8uwMzkTTiBBbkiQK0A3eBhnIdHsp+Uqf31/ltesL3hXX+Txn//dj5IUZdY9Tg
+ry/faJkotH71TGPI4lLd7vRGz+Znx1N6h55/ePen1eHQsvrE0P3Ddx7qOsM/S9ky
+uy1jap74i61/3RzeVNJXWjXlfzn9iC4q81TiG8cqtI6oIb8l/J5fRGTg15c+vNga
+fW56dTmyXx91pGX+rUMJsds6Uvh3X2z5qPvQ4LrfTOdZa/jacMn52G9Gx24vNfyS
+mha0Nr4QH9wQJGQub61rXnGzuralN6ce3ffWji2al+H6Fwb2UkUZnnYtLzzh2wT+
+wStbgttuh+lshheqfvg02jS3/LnXsB7GZHknJ9KLy5OMFzPFXTsSr7vym2/NTp74
+xNh25VZZ8OnquJpu6x96zmngjSljIa31A9xvXROWrYu19zL6PkiHDwp37ZlsmvnZ
+b/f+5hMXkvp3HK1cSU79biQWVvdUBbZMa3fCTAX72uPPdLV0yQExN/Tqatq1sKaG
+P6Mr8/mrlsrQztanR8/Fn9xBhCkB27Hs6rn+116KOKheX/NODlIzY+bYhbk62/r3
+lp49cuTRk5d3yjWvrtA7l4yhA+HnN8cEkcUHKmu2d1ALZ3Jc2tDicpbaePbHVFOT
+7Vi2Vzul9Vw4Xlqly7lbkNzZ3h4T8XuSvXbTZPq+A2V7Kxv66vW9qeVXprtu9g58
+ebW0/KZh1OOy7XXUBxw//Db9XOnCowDv+/PvjTQPf1wXaF5Y/ht/Dt5Q
+=unqU
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ckampfe
+
+==================================================================
+
