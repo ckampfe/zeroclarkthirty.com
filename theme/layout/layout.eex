@@ -10,13 +10,10 @@
             <%= @site_name %>
           <% end %>
         </title>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
-
-        <!-- Custom CSS -->
-        <!-- <link rel="stylesheet" href="/css/main.css"> -->
+        <%= @js %>
         <%= @css %>
 
         <!-- Favicon -->
@@ -44,5 +41,6 @@
             </div>
           </div>
         </div> <!-- /container -->
+
     </body>
 </html>
