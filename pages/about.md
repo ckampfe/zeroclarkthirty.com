@@ -12,6 +12,7 @@ When I'm not fighting villainy and leaping tall buildings, I like to ride my bik
 
 - Twitter: [@clarkkampfe](https://twitter.com/clarkkampfe)
 - Email/XMPP: clark [dot] kampfe [at] gmail [dot] com
+- PGP: `3F05 FB27 48D7 6D4C 068F 4AE6 AD1C E181 11AA 1A54` and [my public key](https://keybase.io/ckampfe/key.asc)
 - Github: [https://github.com/ckampfe/](https://github.com/ckampfe/)
 
 This blog is built with the [Obelisk](https://github.com/ckampfe/obelisk) static
