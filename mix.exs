@@ -4,7 +4,7 @@ defmodule Zct.Mixfile do
   def project do
     [app: :zct,
      version: "0.0.1",
-     elixir: "~> 1.1",
+     elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
@@ -15,7 +15,7 @@ defmodule Zct.Mixfile do
   end
 
   defp deps do
-    [{:obelisk, "~> 0.11", github: "ckampfe/obelisk"},
+    [{:obelisk, "~> 0.12", github: "ckampfe/obelisk"},
      {:yamerl, github: "yakaz/yamerl"}]
   end
 end
