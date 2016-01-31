@@ -1,9 +1,9 @@
 %{"chronos": {:hex, :chronos, "1.5.1"},
   "cowboy": {:hex, :cowboy, "1.0.4"},
   "cowlib": {:hex, :cowlib, "1.0.2"},
-  "earmark": {:hex, :earmark, "0.2.0"},
-  "obelisk": {:git, "https://github.com/ckampfe/obelisk.git", "72507e29d9c66a22d0e2716dff1cdf4a95944254", []},
-  "plug": {:hex, :plug, "1.0.3"},
-  "ranch": {:hex, :ranch, "1.2.0"},
+  "earmark": {:hex, :earmark, "0.2.1"},
+  "obelisk": {:git, "https://github.com/ckampfe/obelisk.git", "dcc7925fb36e0951ea44199f7fddb4bfeddf26e0", []},
+  "plug": {:hex, :plug, "1.1.0"},
+  "ranch": {:hex, :ranch, "1.2.1"},
   "rss": {:hex, :rss, "0.2.1"},
   "yamerl": {:git, "https://github.com/yakaz/yamerl.git", "ae810a808817d9482b4628ae3e20d746e3729fe0", []}}
