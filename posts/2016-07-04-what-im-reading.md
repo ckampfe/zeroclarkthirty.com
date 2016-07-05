@@ -30,7 +30,7 @@ created: 2016-07-04
 
 3. "At this point they entered into a survival situation, but may not have fully appreciated that fact."
 
-[The Tyranny of the Clock - Ivan Sutherland](http://worrydream.com/refs/Sutherland%2520-%2520Tyranny%2520of%2520the%2520Clock.pdf)
+[The Tyranny of the Clock - Ivan Sutherland](http://worrydream.com/refs/Sutherland%20-%20Tyranny%20of%20the%20Clock.pdf)
 
 1. "Each increase in the relative cost of communication over logic brings us closer to the fundamental physical truth that 'simultaneous' lacks meaning."
 
