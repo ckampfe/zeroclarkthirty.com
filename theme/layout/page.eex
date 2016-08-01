@@ -1,7 +1,0 @@
-<% unless @frontmatter.title == "NIL" do %>
-<h1><%= @frontmatter.title %></h1>
-<% end %>
-
-<div class="page">
-  <%= @content %>
-</div>

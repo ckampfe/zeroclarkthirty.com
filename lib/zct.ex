@@ -1,2 +1,0 @@
-defmodule Zct do
-end

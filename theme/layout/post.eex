@@ -1,6 +1,0 @@
-<h2><%= @frontmatter.title %></h2>
-<p class="meta"><%= @frontmatter.created %></p>
-
-<div class="post">
-  <%= @content %>
-</div>
