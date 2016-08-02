@@ -31,8 +31,7 @@ Here's how I do it:
 $ cat a\_great\_script
 </code></pre>
 
-<pre><code class="clojure">
-#!/usr/bin/env boot
+<pre><code class="clojure">\#!/usr/bin/env boot
 
 (set-env! :dependencies '[[org.clojure/data.csv "0.1.3"]
                               [me.raynes/fs "1.4.6"]
