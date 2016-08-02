@@ -44,10 +44,7 @@ $ cat a\_great\_script
              '[clojure.data.csv :as csv]
              '[me.raynes.fs :as fs]
              '[instaparse.core :as insta])
-(import '[java.time Instant])
-
-(defn -main [& args]
-  (println "hello, world"))
+(import '[java.time Instant])<br /><br />(defn -main [& args] <br />  (println "hello, world"))
 </code></pre>
 
 This is 16 tiny lines, but let's break it down anyway.
