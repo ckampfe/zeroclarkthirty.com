@@ -4,7 +4,7 @@ created: 2015-09-13
 ---
 
 # Hi, I'm Clark!
-![selfie](https://i.imgur.com/2DtFhll.jpg)
+![selfie](https://i.imgur.com/kg2RMgJ.jpg)
 
 When I'm not fighting villainy and leaping tall buildings, I like to ride my bike, take pictures, and learn all I can about web development. A few of my interests are: Middle East politics, cyber and national security, free software, film, music, and photojournalism. I'd love to hear from you!
 
