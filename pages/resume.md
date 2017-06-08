@@ -5,7 +5,7 @@ created: 2015-09-13
 
 # Currently
 
-- Belly ;; Data Engineer
+- Gamut ;; Data Engineer
 
 
 # Education
@@ -16,6 +16,7 @@ created: 2015-09-13
 
 # Experience
 
+- Belly ;; Data Engineer
 - Tunisia Live ;; photojournalist
 - The Gustavian Weekly ;; photography editor
 - Integration Objects ;; marketing assistant
@@ -23,7 +24,7 @@ created: 2015-09-13
 
 # Skills
 
-- Scala, SQL, Elixir, Ruby, AWS
+- Clojure, SQL, Scala, Elixir, AWS
 
 
 # Interests
