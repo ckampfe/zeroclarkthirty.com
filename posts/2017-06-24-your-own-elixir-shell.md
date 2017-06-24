@@ -12,7 +12,7 @@ created: 2017-06-24
 
 A question I see often in the Elixir community is "how do I do the equivalent of `gem install` so it's available globally?"
 
-Folks typically do this because they want to be able to boot up their REPL (previously `irb`, now `iex`) and pull in an HTTP client, JSON parser, etc., and fire off some quick commands without having to got through th hassle of making a new project every time.
+Folks typically do this because they want to be able to boot up their REPL (previously `irb`, now `iex`) and pull in an HTTP client, JSON parser, etc., and fire off some quick commands without having to got through the hassle of making a new project every time.
 
 The usual answer I've seen has been to create a dummy project that you then load with your chosen dependencies and `iex` preloads and call it a day. This sounds tedious, but it's not all bad. It localizes your "global" dependencies to a specific place, and, even better, it's just a normal project that you can check into `git` and push somewhere. `git clone` and you have it on your new machine.
 
@@ -45,9 +45,9 @@ After running a quick `mix deps.get`, you can now just `cd ~/code/dotfiles/exshe
 
 ## But what if you could?
 
-As with most things, our global Elixir REPL project can be improved with a tiny sprinkle of UNIX.
+As with most things, our global Elixir REPL project can be improved with a sprinkle of UNIX.
 
-I added this tiny function to my `.zshrc`:
+I added this function to my `.zshrc`:
 
 <pre><code class="shell">
 function siex() {<br />
