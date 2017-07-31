@@ -51,9 +51,9 @@ I added this function to my `.zshrc`:
 
 <pre><code class="shell">
 function siex() {<br />
-  pushd $HOME/code/dotfiles/exshell \<br />
-    && iex "$@" -S mix \<br />
-    && popd<br />
+  pushd $HOME/code/dotfiles/exshell \
+    && iex "$@" -S mix \
+    && popd
 }
 </code></pre>
 
@@ -74,8 +74,8 @@ iex(1)> pwd()<br />
 /Users/clark/code/dotfiles/exshell<br />
 iex(2)><br />
 BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded<br />
-       (v)ersion (k)ill (D)b-tables (d)istribution<br />
-^C~ ~/code/dotfiles<br />
+       (v)ersion (k)ill (D)b-tables (d)istribution
+\^C~ ~/code/dotfiles<br />
 [~]<br />
 clark$><br />
 </code></pre>
