@@ -21,7 +21,8 @@ $ boot -d boot/new new -t app -n database
 This again creates a Clojure project with the [Boot](https://github.com/boot-clj/boot) build tool, using the standard `app` template.
 
 Open up the `build.boot` file in your project's directory, and add the dependencies for
-`java.jdbc`, `hikari-cp`, `sqlite-jdbc`, and `mount` so the top part of your file looks like this:
+[java.jdbc](https://github.com/clojure/java.jdbc), [hikari-cp](https://github.com/tomekw/hikari-cp),
+[sqlite-jdbc](https://github.com/xerial/sqlite-jdbc), and [mount](https://github.com/tolitius/mount) so the top part of your file looks like this:
 
 ```clojure
 (boot.core/set-env! :resource-paths #{"resources" "src"}
@@ -95,6 +96,7 @@ To do that, we have to provide Mount with instructions for what it should do to 
 Here, we define out database connection as `datasource` using `defstate`. We tell mount how to start using `:start` and `:stop`
 key-value pairs, providing the "action" as the value to its respective key.
 When you tell Mount to start, it will run the `:start` action, and `:stop` when you tell it to stop.
+(Aside: the values you provide to `defstate` are raw expressions, because `defstate` wraps them in functions)
 
 You can use this pattern to manage connections to queues, start webservers, initialize job schedulers, etc.
 If you want to see how else you can use Mount, I recommend you [check out the documentation](https://github.com/tolitius/mount).
@@ -135,6 +137,7 @@ emdodied as `with-db-connection`, using it to check out a database connection, `
 using that `conn` in the body of the expression (for us, `jdbc/execute!`), returning a result, and then deallocating the `conn` that we acquired.
 
 When programming Clojure, it will be someone common to see various forms of `with-*` provided by the core language or various libraries.
+`with-open` is by far the most common, but others exist, like the ones in this article.
 The general pattern they take looks like this: 
 
 ```clojure
