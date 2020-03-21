@@ -15,6 +15,6 @@ When I'm not fighting villainy and leaping tall buildings, I like to ride my bik
 - PGP: `3F05 FB27 48D7 6D4C 068F 4AE6 AD1C E181 11AA 1A54` and [my public key](https://keybase.io/ckampfe/key.asc)
 - Github: [https://github.com/ckampfe/](https://github.com/ckampfe/)
 
-This blog is built with a Clojure script I call [Stanley](https://github.com/ckampfe/stanley).
+This blog is built with a Clojure script I call [Stanley](https://github.com/ckampfe/stanley-rs).
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
