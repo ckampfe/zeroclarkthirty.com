@@ -19,7 +19,7 @@ Bittorrent, it isn't KaZaA, it isn't Rapidshare. More to the point, we're trying
 to solve this problem with modern technologies:
 
 ![file
-transfer](http://bloggeek.me/wp-content/uploads/2013/08/201308-send-file.png)
+transfer](https://bloggeek.me/wp-content/uploads/2013/08/201308-send-file.png)
 
 I'm feeling a lot of things at the moment, but mostly I'm excited. I came to Dev
 Bootcamp with a list of a few things that interested me and a profound fear that

@@ -102,4 +102,4 @@ Cork's average response time first went over 1000 ms when given `-c 1300`.
 
 
 Cork IRL: 
-![Cork IRL](http://i.imgur.com/gKK2mZf.gif)
+![Cork IRL](https://i.imgur.com/gKK2mZf.gif)
