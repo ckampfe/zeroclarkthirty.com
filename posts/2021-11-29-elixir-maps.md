@@ -4,6 +4,11 @@ title: Faster Elixir map datastructure creation
 created: 2021-11-29
 ---
 
+UPDATE: `Map.new` is another great choice, as it also uses `:maps.from_list` internally, showing the same performance as `Enum.into`.
+Thanks, Shane for the tip!
+
+---
+
 Elixir and Erlang share a great [map](https://hexdocs.pm/elixir/1.12/Map.html) datastructure.
 It's an associative datastructure of keys and values.
 It looks like this:
