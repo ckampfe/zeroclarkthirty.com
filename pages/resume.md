@@ -5,12 +5,13 @@ created: 2015-09-13
 
 # Currently
 
-- Fast Radius ;; Data Engineer
+- Something new
 
 <p></p>
 
 # Experience
 
+- Fast Radius ;; Data Engineer
 - Gamut ;; Data Engineer
 - Belly ;; Data Engineer
 - Tunisia Live ;; photojournalist
@@ -35,3 +36,5 @@ created: 2015-09-13
 # Interests
 
 - photography, writing, politics, free software, media, law
+
+Last updated: 2022-03-11
