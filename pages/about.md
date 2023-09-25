@@ -1,6 +1,5 @@
 ---
 title: About
-created: 2015-09-13
 ---
 
 # Hi, I'm Clark!
