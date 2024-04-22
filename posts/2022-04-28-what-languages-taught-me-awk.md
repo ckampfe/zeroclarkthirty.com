@@ -49,8 +49,8 @@ BEGIN { print "Starting report!" }
 # it is used.
 $1 ~ /\d+/ { numbers[$1] += 1 }
 
-# If the text in the ninth column matches "Steven",
-# add the contents of the fourth column to a new entry in the
+# If the text in the second column matches "Steven",
+# add the contents of the third column to a new entry in the
 # `stevens_payments` array.
 # Again, the array and the `stevens_payments_len` variable are
 # automatically initialized on use (numbers with a default value of 0),

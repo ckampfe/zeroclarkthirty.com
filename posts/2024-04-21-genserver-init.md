@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understanding GenServer startup
-created: 2024-04-19
+created: 2024-04-21
 ---
 
 In Elixir and Erlang, a GenServer is a way of defining a process that has a specific behavior, namely,

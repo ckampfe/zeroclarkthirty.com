@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Benchmarking Erlang 27.0's new JSON module
-created: 2024-04-19
+created: 2024-04-21
 ---
 
 Here are a few benchmarks comparing Elixir's `Jason` with the new `:json` module, which will ship in the standard library with Erlang 27.0. The usual caveats apply: I chose these example documents, this is my own hardware, etc.
