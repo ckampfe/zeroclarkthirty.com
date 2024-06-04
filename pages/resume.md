@@ -4,7 +4,7 @@ title: Resumé
 
 # Currently
 
-- Something new
+- Dawn Equipment ;; Software Engineer
 
 <p></p>
 
@@ -14,26 +14,17 @@ title: Resumé
 - Gamut ;; Data Engineer
 - Belly ;; Data Engineer
 - Tunisia Live ;; photojournalist
-- The Gustavian Weekly ;; photography editor
-- Integration Objects ;; marketing assistant
-
-<p></p>
-
-# Education
-
-- Dev Bootcamp ;; 9-week intensive web developer program
-- Gustavus Adolphus College ;; political science
 
 <p></p>
 
 # Skills
 
-- Clojure, Elixir, Rust, SQL
+- Rust, SQL, Elixir, debugging, performance analysis and optimization
 
 <p></p>
 
-# Interests
+# Projects
 
-- photography, writing, politics, free software, media, law
+See [projects](projects.html)
 
-Last updated: 2022-03-11
+Last updated: 2024-06-03
