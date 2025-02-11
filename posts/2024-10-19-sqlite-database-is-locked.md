@@ -15,19 +15,21 @@ If a connection is in an active write transaction, any other connection attempti
 
 1. In SQLite, all query interactions happen in transactions of some kind, whether in a read transaction (select) or a write transaction (insert|update|delete).
 
-2. SQLite allows for many concurrent readers but only 1 writer. This invariant is enforced with locks.
+2. SQLite allows for many concurrent readers but only 1 writer at a time. This invariant is enforced with locks, which connections must acquire to peform these reads and writes.
 
-3. If a transaction starts with a read operation and only later later attempts a write (e.g., a `select` followed by an `insert`), the default behavior of SQLite is to start a read transaction, and then lazily attempt to upgrade that read transaction to a write transaction only when the write statement occurs.
+3. By default, if a transaction starts with a read operation and only later later attempts a write (for example, a `select` followed by an `insert`), the default behavior of SQLite is to first start a read transaction by acquiring a read lock, and then lazily attempting to upgrade that read transaction to a write transaction only when the write statement occurs.
 
 This may be surprising, especially the upgrade behavior, but it is all [well documented](https://www.sqlite.org/lang_transaction.html).
+
+(I am simplifying for ease of explanation. More detail about locking under the default rollback journal mode can be found [here](https://sqlite.org/lockingv3.html#locking). [This section](https://sqlite.org/lockingv3.html#transaction_control) in particular provides good detail about SQLite's locking strategy. Additionally, there is [WAL mode](https://sqlite.org/wal.html), which has its own benefits and complications.)
 
 # how to fix it
 
 The fix for this issue is twofold:
 
-1. For each connection to your SQLite database, when you initialize the connection, set [`PRAGMA busy_timeout`](https://sqlite.org/pragma.html#pragma_busy_timeout) to a nonzero value. `busy_timeout` is the amount of time a connection will wait to acquire a write lock in milliseconds. Some SQLite clients like Python's set this value by default. Others do not, so I recommend you verify this in your client of choice.
+1. For each connection to your SQLite database, set [`PRAGMA busy_timeout`](https://sqlite.org/pragma.html#pragma_busy_timeout) to a nonzero value when initializing the connection. `busy_timeout` is the amount of time in milliseconds that a connection will wait to acquire a write lock. Some SQLite clients like Python's set this value by default. Others do not, so I recommend you verify this in your client of choice.
 
-2. For any sequence of SQL statements run together in a transaction that includes at least one write, start the transaction with `BEGIN IMMEDIATE` rather than `BEGIN`. This instructs SQLite to immediately attempt to acquire a write lock rather than starting with a read lock and upgrading it to a write lock. If the connection cannot immediately acquire the write lock because another connection has it, the connection attempting to acquire the write lock will busy wait for `busy_timeout` milliseconds before giving up and throwing the `database is locked` error.
+2. For any sequence of SQL statements run together in a transaction that includes at least one write, start the transaction with `BEGIN IMMEDIATE` rather than `BEGIN`. This instructs SQLite to immediately attempt to acquire a write lock rather than starting with a read lock and upgrading it to a write lock lazily. If the connection cannot immediately acquire the write lock because another connection has it, the connection attempting to acquire the write lock will busy wait for `busy_timeout` milliseconds before giving up and throwing the `database is locked` error.
 
 Again, see SQLite's [transaction](https://www.sqlite.org/lang_transaction.html) documentation for more detail.
 
