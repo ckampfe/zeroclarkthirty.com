@@ -6,7 +6,7 @@ title: About
 
 I've built systems that have helped people improve [crop yields](https://dawnequipment.com/), reduce [manufacturing defects](https://fastradius.com), find the [parts](https://www.grainger.com/) they need, and get [rewarded](https://en.wikipedia.org/wiki/Belly_(loyalty_program)) for shopping at their favorite merchants.
 
-I have experience writing machine control code, implementing computational geometry algorithms from academic papers, processing and analyzing big data, profiling bottlenecks and implementing performance improvements, and of course, fixing bugs up and down the stack.
+I have experience writing machine control code, implementing computational geometry algorithms from academic papers, processing and analyzing big data, profiling bottlenecks and implementing performance improvements, and fixing bugs up and down the stack.
 
 I've worked with many technologies but my most recent deep professional experience is in Rust, Elixir, and SQLite, among others.
 
