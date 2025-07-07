@@ -21,4 +21,4 @@ If you'd like to work together or just want to chat, feel free to reach out.
 
 This blog is built with a Rust program I call [Stanley](https://github.com/ckampfe/stanley-rs).
 
-Last updated: 2024-06-10
+Last updated: 2025-07-06
