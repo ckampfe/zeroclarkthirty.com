@@ -126,7 +126,7 @@ Blades made in these so-called "worse" steels have a lot going for them:
 
 - They're often tougher, meaning they better resist damage from nails, staples,
   and concrete. And when they do get damaged, that damage tends to
-  simpler be more repairable. I have unintentionally damaged a number of knives
+  be simpler, and thus easier to repair. I have unintentionally damaged a number of knives
   through normal, non-extreme use, and knives made in these "worse" materials
   tend to damage less and less frequently. I wish I never damaged
   knives, but the simple fact is these knives get used in the real
