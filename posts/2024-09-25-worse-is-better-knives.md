@@ -55,7 +55,7 @@ to sharpen it. Are they expensive and complicated or simple and cheap?
 
 Knives are almost always made of steel, and all steel
 rusts (with the exception of some exotic materials I won't cover here), but at
-different rates. How well does the knife's steel resist corrosion? Stainlessnes
+different rates. How well does the knife's steel resist corrosion? Stainlessness
 is relevant in the real world, but I won't really discuss it in this essay.
 
 <hr />
