@@ -14,6 +14,12 @@ title: Projects
     <tbody>
         <tr>
             <td>2025</td>
+            <td><a href="https://github.com/ckampfe/etorrent">etorrent</a></td>
+            <td>BitTorrent client</td>
+            <td>Elixir</td>
+        </tr>
+        <tr>
+            <td>2025</td>
             <td><a href="https://github.com/ckampfe/r3">r3</a></td>
             <td>another feed reader</td>
             <td>Elixir, HTMX, SQLite</td>
