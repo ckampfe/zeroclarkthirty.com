@@ -14,6 +14,13 @@ title: Projects
     <tbody>
         <tr>
             <td>2025</td>
+            <td><a href="https://github.com/ckampfe/b4">B4</a></td>
+            <td>
+            An implementation of the <a href="https://riak.com/assets/bitcask-intro.pdf">Bitcask</a> key-value store as an Elixir library</td>
+            <td>Elixir</td>
+        </tr>
+        <tr>
+            <td>2025</td>
             <td><a href="https://github.com/ckampfe/etorrent">etorrent</a></td>
             <td>BitTorrent client</td>
             <td>Elixir</td>
