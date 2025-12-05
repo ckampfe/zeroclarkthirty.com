@@ -1,6 +1,6 @@
 ---
 layout: post
-title: etorrent: a bittorrent client in elixir
+title: etorrent: a BitTorrent client in Elixir
 created: 2025-11-18
 ---
 
