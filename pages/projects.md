@@ -14,6 +14,18 @@ title: Projects
     <tbody>
         <tr>
             <td>2025</td>
+            <td><a href="https://github.com/ckampfe/kk">kk</a></td>
+            <td>A vim-like Kanban TUI application</td>
+            <td>Rust, SQLite</td>
+        </tr>
+        <tr>
+            <td>2025</td>
+            <td><a href="https://github.com/ckampfe/blade">blade</a></td>
+            <td>A system-wide command-line key-value store</td>
+            <td>Rust, SQLite</td>
+        </tr>
+        <tr>
+            <td>2025</td>
             <td><a href="https://github.com/ckampfe/b4">B4</a></td>
             <td>
             An implementation of the <a href="https://riak.com/assets/bitcask-intro.pdf">Bitcask</a> key-value store as an Elixir library</td>
