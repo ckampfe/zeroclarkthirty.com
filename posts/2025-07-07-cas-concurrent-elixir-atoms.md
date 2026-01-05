@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cas - concurrent atoms for Elixir
+title: Cas - concurrent cells for Elixir
 created: 2025-07-07
 ---
 
@@ -9,22 +9,22 @@ Recently, I wrote a small Elixir library called [Cas](https://github.com/ckampfe
 It looks like this:
 
 ```elixir
-alias Cas.Atom
+alias Cas.Cell
 
-# Create an atom
-atom = Atom.new(1)
+# Create a cell
+cell = Cell.new(1)
 
-# Get the value of an atom
-Atom.get(atom)
+# Get the value of an cell
+Cell.get(cell)
 #=> 1
 
-Atom.swap!(atom, fn i -> i + 1 end)
+Cell.swap!(cell, fn i -> i + 1 end)
 #=> 2
-Atom.swap!(atom, fn i -> i + 1 end)
+Cell.swap!(cell, fn i -> i + 1 end)
 #=> 3
 
-# reset the value of the atom
-Atom.reset!(atom, 99)
+# reset the value of the cell
+Cell.reset!(cell, 99)
 #=> 99
 ```
 
@@ -42,6 +42,6 @@ But, it turns out it is possible to do compare-and-swap without using `GenServer
 
 I didn't know `select_replace/2` existed until just recently, and had to build Cas when I found it.
 
-Compared to a `GenServer` performing an identical workload, `Cas` atoms offers a simpler API, modest increases to write throughput in the presence of concurrent writers, while also not growing `GenServer` process mailbox memory.
+Compared to a `GenServer` performing an identical workload, `Cas` cells offers a simpler API, modest increases to write throughput in the presence of concurrent writers, while also not growing `GenServer` process mailbox memory.
 
-[Check out the source code](https://github.com/ckampfe/cas/blob/main/lib/cas/atom.ex) and let me know what you think.
+[Check out the source code](https://github.com/ckampfe/cas/blob/main/lib/cas/cell.ex) and let me know what you think.
